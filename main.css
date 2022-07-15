@@ -1,0 +1,137 @@
+
+*{
+    box-sizing: border-box;
+   
+}   
+
+ body{
+ min-height: 100vh;
+ min-width: 100vw;
+background-color: rgb(250, 244, 244);
+ margin:0;
+ padding:0;
+ border:1em;
+
+}
+
+
+h2{
+    color:antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight:100;
+    margin: 1em;
+    padding: 30px;
+    border: 2em;
+    border-style: hidden;
+    background-color: brown;
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    
+
+}
+
+nav {
+    float:none;
+
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: flex-end
+}
+
+nav li{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+nav li >a:hover{
+   background-color:rgb(212, 22, 22);
+}
+.large{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:100;
+    margin:1em;
+    padding:1em;
+    border-style:hidden;
+}
+.large2{
+    color:antiquewhite;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:300;
+    font-style: italic;
+    border-style:ridge;
+    border:solid;
+    border-color: rgb(245, 161, 88);
+    margin:1em;
+    padding:10px;
+    background-color:rgb(206, 11, 11)
+
+        
+    
+    }
+
+
+#container1{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    padding:1em;
+    border:1em;
+    border-style:hidden;
+    background-color: rgb(236, 72, 72);
+}
+    
+
+#container2{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction:row;
+  align-items:center;
+  margin:15px;
+  padding:20px;
+  border:2em;
+  border-style:hidden;
+  background-color: rgb(110, 110, 246);
+}
+#container3{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin:1em;
+    padding:1em;
+    border:1em;
+    border-style: hidden;
+    background-color: rgb(110, 110, 246);
+}
+#container4{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin:15px;
+    padding:20px;
+    border:2em;
+    border-style:hidden;
+    background-color: brown;
+}
